@@ -6,7 +6,7 @@
 
 REPO="ttimmatti/hub-monorepo"
 RAWFILE_BASE="https://raw.githubusercontent.com/$REPO"
-LATEST_TAG="@latest"
+LATEST_TAG="main"
 SCRIPT_FILE_PATH="scripts/hubble.sh"
 
 install_jq() {
