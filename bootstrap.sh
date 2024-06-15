@@ -1,4 +1,4 @@
-!/bin/bash
+# !/bin/bash
 
 # This is the bootstrap script for hubble. It is used to install the latest version of hubble.
 # Simply run the following command to install the latest version of hubble:
