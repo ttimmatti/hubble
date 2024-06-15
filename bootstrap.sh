@@ -61,6 +61,7 @@ fetch_file_from_repo() {
 
     local download_url
     download_url="$RAWFILE_BASE/$LATEST_TAG/$file_path?t=$(date +%s)"
+    echo "$download_url"
 
     # Download the file using curl, and save it to the local filename. If the download fails,
     # exit with an error.
